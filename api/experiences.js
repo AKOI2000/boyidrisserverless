@@ -1,5 +1,5 @@
 // api/experiences.js
-import pool from './db.js';
+import pool from '../utils/db.js';
 
 export default async function handler(req, res) {
   if (req.method !== 'GET') {
